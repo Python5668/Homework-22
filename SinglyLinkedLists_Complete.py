@@ -50,10 +50,9 @@ class linkedList:
 		else:
 			curNode = self.head
 			print(); print('List Begins')
-			while curNode.next != None:
+			while curNode != None:
 				print(curNode.data)
 				curNode = curNode.next
-			print(curNode.data)
 			print('List Ends'); print()
 
 	def deleteNode(self, key):
